@@ -10,3 +10,5 @@ deploy:
   space: default
   on:
     repo: SkyscapeDemo/SimpleNodeApp
+    branch: master
+    
