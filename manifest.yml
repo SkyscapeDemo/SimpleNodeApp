@@ -1,0 +1,5 @@
+---
+applications:
+- name: simple-nodeapp
+  memory: 512M
+  instances: 1
