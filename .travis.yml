@@ -1,7 +1,6 @@
 language: node_js
 deploy:
-  provider:
-    provider: cloudfoundry
+  provider: cloudfoundry
   api: https://api.beta.cf.skyscapecloud.com
   username: nhines@skyscapecloud.com
   password:
