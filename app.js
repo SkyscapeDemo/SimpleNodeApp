@@ -5,7 +5,7 @@ var host = (process.env.VCAP_APP_HOST || 'localhost');
 //var host = 'localhost';
 http.createServer(function(req, res) {
   res.writeHead(200, {'Content-Type' : 'text/html'});
-  res.write('<h1>Hello from Skyscape Cloud</h1>\n');
+  res.write('<h1>Hello from the Skyscape Cloud</h1>\n');
   res.write('<h2>Host = ' + host + '</h2>\n');
   res.write('<h2>Port = ' + port + '</h2>\n');
   res.end('\n');
