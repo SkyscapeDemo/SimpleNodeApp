@@ -1,0 +1,13 @@
+language: node_js
+deploy:
+  provider: cloudfoundry
+  api: https://api.beta.cf.skyscapecloud.com
+  username: nhines@skyscapecloud.com
+  password:
+    secure: EfGC0vBC0opj2Oj5of9ASnD0/z81zk3xvIOZpvJvMOBhj8IpL4d0b2U8ehuO+1lCcZaKl9N9S8FtEa3VHOzDlJjw3gh+DkCX0KV1UqHh+9OVejPgQZfVzzCMh70f/BqxVglR4tqOVYwcLBO3NpgHE3eQTE8HTONAPp6NAK9kxS0=
+  organization: nhines
+  space: default
+  on:
+    repo: SkyscapeDemo/SimpleNodeApp
+    branch: master
+    
