@@ -1,4 +1,4 @@
-var hello = 'Hello from Skyscape Cloud'
+var hello = 'Hello from the Skyscape Cloud'
 
 var http = require('http');
 var port = (process.env.VCAP_APP_PORT || 8192);
